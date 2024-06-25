@@ -10,7 +10,8 @@ Feature: Login Page
   Scenario: 1.Verify login with valid Credentials
     When the user login with "standard_user" username and "secret_sauce" password
     And the user click on login button
-    Then the user should see be able to view the products
+    Then the user should see "Products"
+
 
 
 

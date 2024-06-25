@@ -22,8 +22,8 @@ public class WebConnector {
         } else {
             ChromeOptions co = new ChromeOptions();
             co.addArguments("start-maximized");
-            if (ConstantUtils.BROWSER_TYPE.equalsIgnoreCase("headless")){
-              co.addArguments("--headless");
+            if (ConstantUtils.BROWSER_TYPE.equalsIgnoreCase("headed")){
+              co.addArguments("--headed");
             }
             driver = new ChromeDriver(co);
         }
