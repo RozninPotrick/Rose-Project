@@ -9,7 +9,8 @@ public class LoginPage extends WebConnector {
     private String usernameFieldXpath = "//input[@id='user-name']";
     private String passwordFieldXpath = "//input [@id='password']";
     private String loginButtonXpath   = "//input[@id='login-button']";
-    private String logoutButtonXpath  = "//a[@href='#']";
+    private String mainmenuXpath      = "//button[@id='react-burger-menu-btn']";
+    private String logoutButtonXpath  = "//a[@id='logout_sidebar_link']";
 
 
     /**** Getters and Setters ****/
@@ -28,7 +29,13 @@ public class LoginPage extends WebConnector {
 
     public void clickLoginButton(){
       BasePage.findElementByXpath(10, loginButtonXpath).click();
-    }
+
+   }
+
+   public void clickmainmanu() {
+      BasePage.findElementByXpath(10,mainmenuXpath).click();
+
+   }
 
     public void clickLogoutButton() {
       BasePage.findElementByXpath(10, logoutButtonXpath).click();

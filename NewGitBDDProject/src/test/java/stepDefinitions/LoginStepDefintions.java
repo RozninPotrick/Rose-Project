@@ -36,7 +36,15 @@ public class LoginStepDefintions extends WebConnector {
 
     }
 
+    @When("the user click on Main Menu")
+    public void the_user_click_on_main_menu() {
+       loginPage.clickmainmanu();
+    }
 
+    @When("the user click on logout")
+    public void the_user_click_on_logout() {
+        loginPage.clickLogoutButton();
+    }
 
 
 }
