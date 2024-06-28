@@ -18,6 +18,9 @@ public class WebConnector {
         if (ConstantUtils.BROWSER_NAME.equalsIgnoreCase("firefox")) {
             FirefoxOptions fo = new FirefoxOptions();
             fo.addArguments("start-maximized");
+            if (ConstantUtils.BROWSER_TYPE.equalsIgnoreCase("headed")){
+               fo.addArguments("--headed");
+            }
             driver = new FirefoxDriver(fo);
         } else {
             ChromeOptions co = new ChromeOptions();
