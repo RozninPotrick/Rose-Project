@@ -6,7 +6,7 @@
 
 ## Intellij Idea and How to Install
 
-   Intellij Idea is a cross-platform integrated development that is designed to develpo applications written in JVM based languages like Java and Kotlin. JetBrains has developed this java IDE. It is supported on all operating systems like Windows, Mac, Linux. 
+   Intellij Idea is a type of development enviroment popularly used and designed to develop applications written in JVM based languages like Java,Ruby,Kotlin etc. JetBrains has developed this java IDE. It is supported on all operating systems like Windows, Mac, Linux. 
 
 #### Steps to install Intellij Idea
 
@@ -28,6 +28,19 @@ Intellij Idea Ultimate edition - For commercial purposes.
 4.Cucumber Junit
 
 Maven repo - https://mvnrepository.com/
+
+## Create Java project in Intellij
+
+File=>New=>java Project =>{project name}
+
+## Create new package
+
+Right click on src=>New=>Package=>{package name}
+
+## Create new Java class
+
+Right click on {package name}=>New=>Class=>{class name}
+
 
    
 
