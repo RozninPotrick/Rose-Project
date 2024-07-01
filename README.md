@@ -34,15 +34,15 @@ Maven repo - https://mvnrepository.com/
 
 ## Create Java project in Intellij
 
-File=>New=>java Project =>{project name}
+File ->New ->java Project ->{project name}
 
 ## Create new package
 
-Right click on src=>New=>Package=>{package name}
+Right click on src ->New ->Package ->{package name}
 
 ## Create new Java class
 
-Right click on {package name}=>New=>Class=>{class name}
+Right click on {package name} ->New ->Class ->{class name}
 
 
    
