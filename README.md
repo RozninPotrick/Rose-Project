@@ -23,8 +23,11 @@ Intellij Idea Ultimate edition - For commercial purposes.
 ## Dependencies in POM.xml file
 
 1.Junit
+
 2.Selenium WebDriver
+
 3.Cucumber
+
 4.Cucumber Junit
 
 Maven repo - https://mvnrepository.com/
