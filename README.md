@@ -14,9 +14,20 @@ Community edition - Free and open source.
 Intellij Idea Ultimate edition - For commercial purposes.
 
 #### Steps
-1.Seerch intellij Idea on Google
-2.Next, you will see 
+1.Search intellij Idea on Google
 
+2.Next, Go to https://www.jetbrains.com/idea/ 
+
+3.Follow the Community Edition
+
+## Dependencies in POM.xml file
+
+1.Junit
+2.Selenium WebDriver
+3.Cucumber
+4.Cucumber Junit
+
+Maven repo - https://mvnrepository.com/
 
    
 
