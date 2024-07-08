@@ -4,6 +4,13 @@
 
    Test Automation means using a software tool to run repeatable tests against the application to be tested.
 
+## Prerequisites
+
+1. Install Intellij
+2. Install JDK
+3. Clone this Project
+4. Dedependency
+   
 ## Intellij Idea and How to Install
 
    Intellij Idea is a type of development enviroment popularly used and designed to develop applications written in JVM based languages like Java,Ruby,Kotlin etc. JetBrains has developed this java IDE. It is supported on all operating systems like Windows, Mac, Linux. 
@@ -32,17 +39,18 @@ Intellij Idea Ultimate edition - For commercial purposes.
 
 Maven repo - https://mvnrepository.com/
 
-## Create Java project in Intellij
+##Creating New Feature File
 
-File ->New ->java Project ->{project name}
+## Step Definitions
 
-## Create new package
+## Page Object
 
-Right click on src ->New ->Package ->{package name}
+## Utilities
 
-## Create new Java class
+## TestRunner Class
 
-Right click on {package name} ->New ->Class ->{class name}
+## Generate the Report
+
 
 
    
