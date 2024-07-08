@@ -50,17 +50,19 @@ It holds the test method and code which are mapped to the Gherkin test case step
 
 ## Page Object
 
-All the methods are written in page object class.
+All the codes are written in page object class to make it organised.
 
 ## Utilities
 
-It holds all Constant Utils eg. 
+It holds all Constant Utils eg. Base Url,Browser name and Type.
 
 ## TestRunner Class
 
-In the TestRunner Class, You run the test and Generate report
+In the TestRunner Class, You run the test and Generate report.
 
 ## Generate the Report
+
+To generate the Report, In intellij right click on cucumber.html-> open in -> Browser -> Chrome
 
 
 
