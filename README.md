@@ -50,7 +50,7 @@ It holds the test method and code which are mapped to the Gherkin test case step
 
 ## Page Object
 
-All the codes are written in page object class to make it organised.
+All the codes are written in page object class to make it organised. 
 
 ## Utilities
 
@@ -58,7 +58,7 @@ It holds all Constant Utils eg. Base Url,Browser name and Type.
 
 ## TestRunner Class
 
-In the TestRunner Class, You run the test and Generate report.
+In the TestRunner Class, You run the test and Generate report. To run the test need to add CucumberOptions (Plugins,features,glue and tags) in this class.
 
 ## Generate the Report
 
