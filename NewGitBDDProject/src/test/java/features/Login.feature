@@ -1,4 +1,4 @@
-@SmokeTest
+#@SmokeTest
 Feature: Verify Login Page
   As a user of the system
   I should be able login with valid credentials
