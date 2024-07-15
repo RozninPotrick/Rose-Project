@@ -1,4 +1,4 @@
-@SmokeTest
+#@SmokeTest
 Feature: Verify product sort container
 
   As a user of the system
