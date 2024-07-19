@@ -9,7 +9,7 @@ Feature: Verify login and purchase a product
     When the user login with "standard_user" username and "secret_sauce" password
     And the user click on login button
     Then the user should see "Products"
-    When the user select "Sauce Labs Backpack" option
+    When the user select "Sauce Labs Backpack" product and add to Cart
     And the user click on Add to Cart Button
     And the user click on shopping Cart container
     Then the user should see "Sauce Labs Backpack" is added to Your Cart

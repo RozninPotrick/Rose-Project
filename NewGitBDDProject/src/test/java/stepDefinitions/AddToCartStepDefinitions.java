@@ -10,9 +10,9 @@ public class AddToCartStepDefinitions extends WebConnector {
 
    AddToCartPage addToCartPage = new AddToCartPage();
 
-   @When("the user select {string} option")
-   public void the_user_select_option(String expectedoption) throws InterruptedException {
-      addToCartPage.checkselectedoption(expectedoption);
+   @When("the user select {string} product and add to Cart")
+   public void the_user_select_option_and_add_to_cart(String product) throws InterruptedException {
+      addToCartPage.checkselectedproduct(product);
       Thread.sleep(3000);
    }
 

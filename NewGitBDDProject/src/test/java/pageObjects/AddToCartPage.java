@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 public class AddToCartPage extends WebConnector {
 
     /****** Locator ******/
-    private String SauceLabsBackpackXpath = "//div[@data-test='inventory-item-name']";
+    private String productlinkXpath = "//div[@data-test='inventory-item-name']";
     private String AddtocartXpath = "//button[@id='add-to-cart']";
     private String shoppingcartcontainerXpath = "//a[@class='shopping_cart_link']";
     /****** Getters And Setters *******/
@@ -17,8 +17,8 @@ public class AddToCartPage extends WebConnector {
      * Method to check selected product
      */
 
-    public void checkselectedoption(String expectedoption){
-        BasePage.findElementByXpath(10, SauceLabsBackpackXpath).click();
+    public void checkselectedproduct(String product){
+        BasePage.findElementByXpath(10, productlinkXpath).click();
 
     }
 
